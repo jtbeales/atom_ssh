@@ -41,4 +41,4 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     datamash
 
 # remote-atom stuff; see https://github.com/randy3k/remote-atom
-# RUN mkdir -p $HOME/bin && curl -o $HOME/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate && chmod +x $HOME/bin/rmate && mv $HOME/bin/rmate $HOME/bin/ratom
+RUN mkdir -p $HOME/bin && curl -o $HOME/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate && chmod +x $HOME/bin/rmate && mv $HOME/bin/rmate $HOME/bin/ratom
